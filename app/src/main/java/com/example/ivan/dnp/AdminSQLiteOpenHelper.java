@@ -17,8 +17,8 @@ public class AdminSQLiteOpenHelper extends SQLiteOpenHelper {
 
     public void onCreate(SQLiteDatabase db) {
 
-        //aquí creamos la tabla de usuario (dni, nombre, ciudad, numero)
-        db.execSQL("create table user(dni integer primary key, nombre text, ciudad text, numero integer)");
+
+        db.execSQL("create table user(UserCode integer primary key UNIQUE, UserNAme CHAR(60) NOT NULL, UserImage CHAR(60), UserCategoria CHAR(60))");
 
     }
 
