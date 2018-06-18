@@ -36,10 +36,9 @@
         app:srcCompat="@mipmap/ic_launcher_round" />
 
 
-
     <LinearLayout
-        android:layout_width="312dp"
-        android:layout_height="322dp"
+        android:layout_width="313dp"
+        android:layout_height="68dp"
         android:layout_marginBottom="8dp"
         android:layout_marginEnd="8dp"
         android:layout_marginLeft="8dp"
@@ -51,26 +50,15 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.705">
+        app:layout_constraintVertical_bias="1.0">
 
         <Button
-            android:id="@+id/button3"
+            android:id="@+id/find_button"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Button" />
+            android:onClick="alta"
+            android:text="buscar" />
 
-        <Button
-            android:id="@+id/button4"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="Button"
-            android:onClick="alta"/>
-
-        <Button
-            android:id="@+id/button5"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="Button" />
     </LinearLayout>
 
     <ImageButton
